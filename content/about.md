@@ -1,9 +1,9 @@
-+++
-title =  "About"
-description = "There is no such thing as impossible, it just means you have to try harder."
-date = 2020-08-26T20:55:15+02:00
-draft = true
-+++
+---
+title: "About"
+date: 2020-08-26T20:55:15+02:00
+Description: "There is no such thing as impossible, it just means you have to try harder."
+draft: false
+---
 
 Hi! I'm Dennis Verweij and I'm the lead platform engineer at Pon Digital Solutions. Pon Digital Solutions builds and runs websites, mobile apps, webshops, integrations and api's. We have a best of breed philosophy on what, where and how to run things so a pretty broad skillset and an open mind is required to not go mad. We run on GCP, AWS, Azure and we use tech like kubernetes, istio, cloudflare, elasticsearch, mongodb, mysql, postgres, mulesoft.....and a lot more. 
 
