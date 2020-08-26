@@ -1,0 +1,48 @@
+baseURL = "https://www.envign.com"
+languageCode = "en-us"
+title = "Envign"
+theme = "anatole"
+
+[params]
+title = "Envign"
+author = "Dennis Verweij"
+description = "Envision...Design...Build"
+profilePicture = "images/surfer.png"
+keywords = ""
+favicon = "favicons/favicon.ico"
+customCss = []
+customJs = []
+mainSections = ["post"]
+
+## Social links
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/dvenvign/"
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/dvenvign/"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
